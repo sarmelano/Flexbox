@@ -1,6 +1,8 @@
+/*====GENERAL SETTINGS====================================*/
 * {
   box-sizing: border-box;
   font-family: 'Graphik';
+  font-weight: 400;
 }
 
 .container {
@@ -10,4 +12,22 @@
 
 .btn {
   cursor: pointer;
+  font-weight: 600
 }
+
+.btn-type1 {
+  background-color: white;
+  color: black;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.btn-type2 {
+  background-color: #FF6336;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+/*=========================================================*/
