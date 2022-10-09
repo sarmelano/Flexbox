@@ -2,3 +2,8 @@
   box-sizing: border-box;
   font-family: 'Graphik';
 }
+
+.container {
+  max-width: 1330px;
+  margin: 0 auto;
+}
