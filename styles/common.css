@@ -7,3 +7,7 @@
   max-width: 1330px;
   margin: 0 auto;
 }
+
+.btn {
+  cursor: pointer;
+}
