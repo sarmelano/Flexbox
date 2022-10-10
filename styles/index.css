@@ -118,21 +118,31 @@
   margin: 0 0 94px 0;
   padding: 70px 0 0 0;
 }
+
 /*-------------</section2>------------------------*/
 .container1290 {
   max-width: 1290px;
   margin: 0 auto;
 }
 
-.section3__container {
+.section3__article {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 250px;
 }
 
-.section3__box {
+.section3__box1 {
   max-width: 490px;
+}
+
+.section3__box2 {
+  max-width: 440px;
+}
+
+.section3__box3,
+.section3__box4 {
+  max-width: 510px;
 }
 
 .container3__special-link {
@@ -145,3 +155,23 @@
   line-height: 30px;
   color: #000000;
 }
+
+.section3__article2 {
+  flex-direction: row-reverse;
+}
+
+.box__card4 {
+  position: relative;
+}
+
+.tablet {
+  position: absolute;
+  left: 66px;
+  top: 119px;
+}
+
+#mb150 {
+  margin-bottom: 150px;
+}
+
+/*-------------</section3>------------------------*/
