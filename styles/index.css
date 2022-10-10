@@ -24,7 +24,6 @@
   display: flex;
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 
 .header__menu-item {
@@ -101,4 +100,32 @@
   font-size: 15px;
   line-height: 25px;
   color: #000000;
+}
+
+/*-------------</section1>------------------------*/
+.section2 {
+  background-color: #FF9C7D;
+  padding: 10px 0px;
+  margin-bottom: 90px;
+}
+
+.section2__title {
+  padding: 108px 270px 0 350px;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+  color: #000000;
+}
+
+.section2__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 94px 0;
+  padding: 70px 0 0 0;
+}
+/*-------------</section2>------------------------*/
+.container1290 {
+  max-width: 1290px;
 }
