@@ -1,4 +1,6 @@
 .header {
+  margin-bottom: 97px;
+
   line-height: 95px;
   height: 95px;
   border-bottom: 1px solid #E5E5E5;
@@ -25,17 +27,21 @@
   list-style: none;
 }
 
+.header__menu-item {
+  font-size: 15px;
+}
+
 .header__menu-item:first-child,
 .header__menu-item:nth-child(2) {
-  margin-right: 57px; 
+  margin-right: 57px;
 }
 
 .header__menu-item:nth-child(3) {
-  margin-right: 42px; 
+  margin-right: 42px;
 }
 
 .header__menu-item:nth-child(4) {
-  margin-right: 49px; 
+  margin-right: 49px;
 }
 
 .header-btn1 {
@@ -47,5 +53,52 @@
 .header-btn2 {
   padding: 2px 22px;
   line-height: 45px;
-  border: none;
+}
+
+/*--------------</header>-------------------------*/
+.section1 {
+  background-image: url(../images/back.svg);
+  background-repeat: no-repeat;
+  background-position: top 54px right;
+}
+
+.flash {
+  padding: 32px 758px 0 20px;
+}
+
+.fs65 {
+  font-size: 65px;
+}
+
+.title {
+  margin: 0 0 51px 0;
+  font-weight: 600;
+  line-height: 70px;
+  color: #000000;
+}
+
+.subtitle {
+  margin: 0 0 50px 0;
+  padding-right: 81px;
+  font-size: 25px;
+  line-height: 35px;
+  color: #000000;
+}
+
+.section1-btn1 {
+  margin: 0 10px 25px 0;
+  padding: 2px 41px 2px 42px;
+  line-height: 60px;
+}
+
+.section1-btn2 {
+  padding: 1px 29px;
+  line-height: 60px;
+}
+
+.review {
+  margin-bottom: 172px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
 }
