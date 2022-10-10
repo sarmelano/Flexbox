@@ -7,7 +7,8 @@
   font-weight: 400;
 }
 
-.header__menu, .section2__menu {
+.header__menu,
+.section2__menu {
   list-style: none;
 }
 
@@ -15,9 +16,32 @@ nav {
   list-style: none;
 }
 
-h1, h2, h3, p, li, nav, button {
+h1,
+h2,
+h3,
+p,
+li,
+nav,
+button {
   padding: 0;
   margin: 0;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+  color: #000000;
+}
+
+.subtitle {
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
 }
 
 .container {
@@ -46,4 +70,5 @@ a {
   text-decoration: none;
   color: black;
 }
+
 /*=========================================================*/

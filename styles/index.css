@@ -67,16 +67,13 @@
 
 .fs65 {
   font-size: 65px;
-}
-
-.title {
   margin: 0 0 51px 0;
   font-weight: 600;
   line-height: 70px;
   color: #000000;
 }
 
-.subtitle {
+.fs25 {
   margin: 0 0 50px 0;
   padding-right: 81px;
   font-size: 25px;
@@ -111,11 +108,7 @@
 
 .section2__title {
   padding: 108px 270px 0 350px;
-  font-weight: 600;
-  font-size: 50px;
-  line-height: 60px;
   text-align: center;
-  color: #000000;
 }
 
 .section2__menu {
@@ -128,4 +121,27 @@
 /*-------------</section2>------------------------*/
 .container1290 {
   max-width: 1290px;
+  margin: 0 auto;
+}
+
+.section3__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 250px;
+}
+
+.section3__box {
+  max-width: 490px;
+}
+
+.container3__special-link {
+  text-decoration: underline;
+}
+
+.section3__link1 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
 }
