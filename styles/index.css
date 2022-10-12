@@ -331,3 +331,37 @@
 
 /*-------------</section7>------------------------*/
 /*-------------<section8>------------------------*/
+.section8__article1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 165px 0 162px 0;
+}
+
+.section8__title {
+  max-width: 790px;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 75px;
+  text-align: center;
+  color: #000000;
+}
+
+.section8__subtitle {
+  max-width: 540px;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}
+
+.section8__art1-btn {
+  padding: 20px 20px;
+}
+
+.section8__art1-img {
+  padding: 25px 0 32px 0;
+}
+
+/*-------------</section8>------------------------*/
+/*-------------<section9>------------------------*/
