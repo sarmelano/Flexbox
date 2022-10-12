@@ -12,7 +12,12 @@
   list-style: none;
 }
 
-nav {
+.section4 {
+  background-color: #FFF8E4;
+  padding-bottom: 150px;
+}
+
+*nav {
   list-style: none;
 }
 
@@ -46,6 +51,11 @@ button {
 
 .container {
   max-width: 1290px;
+  margin: 0 auto;
+}
+
+.container1330 {
+  max-width: 1330px;
   margin: 0 auto;
 }
 
