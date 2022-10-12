@@ -230,3 +230,41 @@
   text-align: center;
   color: #000000;
 }
+
+/*-------------</section4>------------------------*/
+.section5__menu {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 31px;
+  margin: 0;
+  padding: 75px 0 0 0;
+}
+
+.section5__menu-item {
+  max-width: 407px;
+}
+
+.section5__menu-item:last-child {
+  max-width: 400px;
+}
+
+.section5__menu-title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+  color: #000000;
+  align-items: baseline;
+  padding: 49px 0 43px 0;
+}
+
+.section5__menu-link {
+  display: block;
+  padding-top: 25px;
+
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: underline;
+  color: #000000;
+}
+/*-------------</section5>------------------------*/
+
