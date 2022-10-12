@@ -29,6 +29,10 @@
   background-color: #DABC98;
 }
 
+.section9 {
+  background-color: #FF9C7D;
+}
+
 *nav {
   list-style: none;
 }
@@ -95,6 +99,12 @@ button {
 
 .btn-type2 {
   background-color: #FF6336;
+  color: white;
+  border: none;
+}
+
+.btn-type3 {
+  background-color: black;
   color: white;
   border: none;
 }
