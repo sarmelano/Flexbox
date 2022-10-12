@@ -21,6 +21,10 @@
   padding: 154px 0 187px 0;
 }
 
+.section6 {
+  background-color: #C9E8F2;
+}
+
 *nav {
   list-style: none;
 }
@@ -32,6 +36,8 @@
 h1,
 h2,
 h3,
+h4,
+h5,
 p,
 li,
 nav,

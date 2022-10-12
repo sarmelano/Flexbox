@@ -266,5 +266,34 @@
   text-decoration: underline;
   color: #000000;
 }
-/*-------------</section5>------------------------*/
 
+/*-------------</section5>------------------------*/
+/*-------------<section6>------------------------*/
+.section6__article {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section6__block-left {
+  max-width: 880px;
+  padding-top: 63px;
+}
+
+.quote {
+  margin: 0;
+  font-size: 30px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.section6__img {
+  display: block;
+}
+
+.quote+.section6__img {
+  padding: 23px 0 7px 0;
+}
+
+.section6__block-right {
+  padding: 53px 0px 105px 0;
+}
