@@ -297,3 +297,37 @@
 .section6__block-right {
   padding: 53px 0px 105px 0;
 }
+
+/*-------------</section6>------------------------*/
+/*-------------<section7>------------------------*/
+.section7__article {
+  display: flex;
+  align-items: center;
+  height: 332px;
+}
+
+.section7__title {
+  max-width: 615px;
+  padding: 0 0 0 67px;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.section7__block-left {
+  display: flex;
+  align-items: center;
+
+}
+
+.section7__block-right {
+  display: flex;
+  padding: 0 60px 0 69px;
+  align-items: flex-start;
+  gap: 70px;
+  border-left: 1px solid black;
+}
+
+/*-------------</section7>------------------------*/
+/*-------------<section8>------------------------*/
