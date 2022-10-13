@@ -12,6 +12,10 @@
   list-style: none;
 }
 
+.flex {
+  display: flex;
+}
+
 .section4 {
   background-color: #FFF8E4;
   padding-bottom: 150px;
@@ -31,6 +35,10 @@
 
 .section9 {
   background-color: #FF9C7D;
+}
+
+.section10 {
+  padding-top: 92px;
 }
 
 *nav {
@@ -77,7 +85,7 @@ button {
 }
 
 .container2 {
-  max-width: 1023px;
+  max-width: 784px;
   margin: 0 auto;
 }
 

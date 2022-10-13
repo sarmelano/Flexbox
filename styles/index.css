@@ -374,6 +374,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 784px;
   padding: 119px 0 161px 0;
 }
 
@@ -390,5 +391,76 @@
   font-size: 17px;
   line-height: 60px;
 }
+
 /*-------------</section9>------------------------*/
 /*-------------<section10>------------------------*/
+.section10__left {
+  max-width: 300px;
+  display: block;
+  margin-right: 140px;
+}
+
+.section10__title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  color: #000000;
+  padding-bottom: 30px;
+}
+
+.section10__subtitle {
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.section10__img2 {
+  width: 80px;
+  padding: 31px 0 11px 0;
+}
+
+.section10__link {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  padding: 15px 0 95px 0;
+}
+
+.section10__right {
+  display: flex;
+  width: 850px;
+  justify-content: space-between;
+}
+
+.section10__right-menu {
+  margin: 5px 0 0 0;
+  padding: 0 0 406px 0;
+  width: 187px;
+}
+
+.section10__right-menu:last-child {
+  margin-right: 0;
+}
+
+.section10__right__menu-h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  padding-bottom: 21px;
+}
+
+.section10__right-menu>li:last-child,
+.section10__right-menu>li:first-child {
+  padding-bottom: 0;
+}
+
+.section10__right__menu-item {
+  padding-bottom: 15px;
+  font-size: 15px;
+  line-height: 15px;
+  color: #000000;
+}
+
+/*-------------</section10>------------------------*/
+/*-------------<footer>----------------------------*/
