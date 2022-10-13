@@ -464,3 +464,27 @@
 
 /*-------------</section10>------------------------*/
 /*-------------<footer>----------------------------*/
+.footer {
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 125px;
+}
+
+.footer__img {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer__left-sub {
+  display: inline-block;
+  max-width: 280px;
+  margin-left: 14px;
+}
+
+.footer__sub {
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
