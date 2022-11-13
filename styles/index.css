@@ -1,6 +1,5 @@
 .header {
-  margin-bottom: 97px;
-
+  margin-bottom: 129px;
   line-height: 95px;
   height: 95px;
   border-bottom: 1px solid #E5E5E5;
@@ -27,7 +26,7 @@
 }
 
 .header__menu-item {
-  font-size: 15px;
+  font-size: 0.93rem;
 }
 
 .header__menu-item:first-child,
@@ -56,17 +55,15 @@
 
 /*--------------</header>-------------------------*/
 .section1 {
-  background-image: url(../images/back.svg);
-  background-repeat: no-repeat;
-  background-position: top 54px right;
+  background: url(../images/back.svg) top 22px right no-repeat;
 }
 
 .flash {
-  padding: 32px 758px 0 20px;
+  padding: 0 57.82% 0 0;
 }
 
 .fs65 {
-  font-size: 65px;
+  font-size: 4.06rem;
   margin: 0 0 51px 0;
   font-weight: 600;
   line-height: 70px;
@@ -78,7 +75,7 @@
 .fs25 {
   margin: 0 0 50px 0;
   padding-right: 81px;
-  font-size: 25px;
+  font-size: 1.56rem;
   line-height: 35px;
   color: #000000;
 }
@@ -96,7 +93,7 @@
 
 .review {
   margin-bottom: 172px;
-  font-size: 15px;
+  font-size: 0.93rem;
   line-height: 25px;
   color: #000000;
 }
@@ -118,7 +115,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 0 94px 0;
-  padding: 70px 0 0 0;
+  padding: 70px 27px 0 20px;
 }
 
 /*-------------</section2>------------------------*/
@@ -148,8 +145,8 @@
 
 .section3__link1 {
   font-weight: 600;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
   color: #000000;
 }
 
@@ -214,7 +211,7 @@
 
 .section4__menu-title {
   font-weight: 600;
-  font-size: 25px;
+  font-size: 1.562rem;
   line-height: 35px;
   text-align: center;
   color: #000000;
@@ -225,7 +222,7 @@
 }
 
 .section4__menu-subtitle {
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 25px;
   text-align: center;
   color: #000000;
@@ -251,7 +248,7 @@
 
 .section5__menu-title {
   font-weight: 600;
-  font-size: 30px;
+  font-size: 1.875rem;
   line-height: 40px;
   color: #000000;
   align-items: baseline;
@@ -262,7 +259,7 @@
   display: block;
   padding-top: 25px;
 
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 30px;
   text-decoration: underline;
   color: #000000;
@@ -282,7 +279,7 @@
 
 .quote {
   margin: 0;
-  font-size: 30px;
+  font-size: 1.875rem;
   line-height: 40px;
   color: #000000;
 }
@@ -311,7 +308,7 @@
   max-width: 615px;
   padding: 0 0 0 67px;
   font-weight: 600;
-  font-size: 35px;
+  font-size: 2.187rem;
   line-height: 50px;
   color: #000000;
 }
@@ -342,7 +339,7 @@
 .section8__title,
 .section9__title {
   font-weight: 600;
-  font-size: 65px;
+  font-size: 4.06rem;
   line-height: 75px;
   text-align: center;
   color: #000000;
@@ -354,7 +351,7 @@
 
 .section8__subtitle {
   max-width: 540px;
-  font-size: 25px;
+  font-size: 1.56rem;
   line-height: 30px;
   text-align: center;
   color: #000000;
@@ -380,7 +377,7 @@
 
 .section9__subtitle {
   padding: 29px 0 54px 0;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 30px;
   color: #000000;
 }
@@ -388,7 +385,7 @@
 .section8__art2-btn {
   padding: 0 40px;
   font-weight: 600;
-  font-size: 17px;
+  font-size: 1.06rem;
   line-height: 60px;
 }
 
@@ -402,14 +399,14 @@
 
 .section10__title {
   font-weight: 600;
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 50px;
   color: #000000;
   padding-bottom: 30px;
 }
 
 .section10__subtitle {
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 30px;
   color: #000000;
 }
@@ -445,7 +442,7 @@
 
 .section10__right__menu-h3 {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 25px;
   padding-bottom: 21px;
 }
@@ -457,7 +454,7 @@
 
 .section10__right__menu-item {
   padding-bottom: 15px;
-  font-size: 15px;
+  font-size: 0.93rem;
   line-height: 15px;
   color: #000000;
 }
@@ -484,7 +481,7 @@
 }
 
 .footer__sub {
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 15px;
   color: #000000;
 }
