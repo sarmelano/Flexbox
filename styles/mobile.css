@@ -1,0 +1,17 @@
+
+/*--------tablet--------*/
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+
+
+
+/*--------mobile--------*/
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 14px;
+  }
+}

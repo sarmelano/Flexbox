@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/common.css">
   <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="styles/low_screens.css">
   <link rel="stylesheet" href="styles/mobile.css">
 </head>
 
@@ -22,9 +23,9 @@
 
       <div class="header__bar">
 
-          <a class="logo_link" href="index.html">
-            <img class="logo" src="images/Frame (4).png" alt="logo" height="28">
-          </a>
+        <a class="logo_link" href="index.html">
+          <img class="logo" src="images/Frame (4).png" alt="logo" height="28">
+        </a>
 
         <ul class="header__menu">
           <li class="header__menu-item"><a href="#" alt="Product">Product</a></li>
@@ -36,13 +37,17 @@
 
       </div>
 
-      <div>
+      <div class="head__btns">
 
         <button type="button" class="btn btn-type1 header-btn1">Log in</button>
 
         <button type="button" class="btn btn-type2 header-btn2">Try it free</button>
 
       </div>
+
+      <button type="button" class="header__burger">
+        <img src="images/burger-menu.svg" alt="menu">
+      </button>
 
     </div>
 
@@ -71,7 +76,13 @@
 
         </div>
 
+        <div class="flash-img">
+          <img class="flash-img__img" src="images/back.svg" alt="image-flash">
+        </div>
+
       </section>
+
+
 
     </div>
     <!-------------------------------------------------------------------------->
@@ -116,7 +127,7 @@
 
           <div>
 
-            <img src="./images/card1.png" alt="card1" width="632">
+            <img class="articles-imgs" src="./images/card1.png" alt="card1" width="632">
 
           </div>
 
@@ -141,7 +152,7 @@
 
           <div>
 
-            <img src="./images/card2.png" alt="card2" width="632">
+            <img class="articles-imgs" src="./images/card2.png" alt="card2" width="632">
 
           </div>
 
@@ -168,7 +179,7 @@
 
           <div>
 
-            <img src="./images/card3.png" alt="card3" width="632">
+            <img class="articles-imgs" src="./images/card3.png" alt="card3" width="632">
 
           </div>
 
@@ -195,9 +206,9 @@
 
           <div class="box__card4">
 
-            <img src="./images/card4.png" alt="card4" width="632">
+            <img class="articles-imgs" src="./images/card4.png" alt="card4" width="632">
 
-            <img class="tablet" src="./images/card4_1.png">
+            <img class="articles-imgs tablet" src="./images/card4_1.png">
 
           </div>
 
@@ -361,7 +372,7 @@
 
           <div class="section6__block-right">
 
-            <img class="section6__img" src="./images/person.png" alt="image">
+            <img class="section6__img s6__person" src="./images/person.png" alt="image">
 
           </div>
 
@@ -380,7 +391,9 @@
 
           <div class="section7__block-left">
 
-            <img src="./images/section7/cake.svg" alt="icon">
+            <div>
+              <img class="s7__icon-cake" src="./images/section7/cake.svg" alt="icon">
+            </div>
 
             <h3 class="section7__title">The most-loved translation management software</h3>
 
@@ -388,9 +401,9 @@
 
           <div class="section7__block-right">
 
-            <img src="./images/section7/g2.svg" alt="icon1">
+            <img class="s7block-right-image1" src="./images/section7/g2.svg" alt="icon1">
 
-            <img src="./images/section7/capterra.svg" alt="icon2">
+            <img class="s7block-right-image2" src="./images/section7/capterra.svg" alt="icon2">
 
           </div>
 
@@ -443,13 +456,13 @@
     <!---------------------------------<SECTION 10>----------------------------------->
     <section class="section10">
 
-      <div class="container flex">
+      <div class="container s10">
 
         <div class="section10__left">
 
           <h3 class="section10__title">Case Studies</h3>
 
-          <img src="./images/bikes.png" alt="picture of bikes">
+          <img class="articles-img" src="./images/bikes.png" alt="picture of bikes">
 
           <img class="section10__img2" src="./images/spe.png" alt="logo1">
 
